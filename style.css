@@ -1,0 +1,109 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@300;400&display=swap");
+
+/* GLOBAL VARIABLES */
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background: #151559;
+  font-family: "Raleway", sans-serif;
+}
+
+.container {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+/* HEADER SECTION */
+header {
+  color: #fff;
+  height: 10vh;
+}
+
+header span {
+  padding: 2px;
+}
+
+header span.red {
+  color: red;
+}
+
+header span.yellow {
+  color: yellow;
+}
+
+header span.green {
+  color: green;
+}
+
+header span.white {
+  color: white;
+}
+
+header span.orange {
+  color: orange;
+}
+
+header span.teal {
+  color: palevioletred;
+}
+
+header .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px;
+  height: 100%;
+}
+
+.search-bar {
+  height: 50%;
+}
+
+/* CONTENT SECTION */
+main {
+  height: 90vh;
+}
+
+section.desc {
+  height: 20%;
+  width: 100%;
+  text-align: center;
+  padding: 50px;
+}
+
+section.desc h1 {
+  color: white;
+}
+.result-container {
+  margin-top: 30px;
+}
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 10px;
+}
+
+.grid-container .gif-container {
+  color: white;
+  width: 100%;
+  height: 180px;
+  text-align: center;
+}
+.grid-container .gif-container img {
+  height: 100%;
+  width: 100%;
+}
+
+.btn {
+  text-align: center;
+  margin-top: 30px;
+}
+
+.btn button {
+  padding: 5px;
+  width: 150px;
+}
